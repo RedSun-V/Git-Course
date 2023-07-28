@@ -584,7 +584,7 @@ git tag -d 版本号
 **删除远程的tag**
 
 ```shell
-git push origin:refs/tags/v1.1
+git push origin :refs/tags/v1.1
 ```
 
 同时，在一些情况下也可以使用 `tag` 来代替commit的哈希值使用
